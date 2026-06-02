@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [main, develop]
+    branches: [main, maj-workflow]
   pull_request:
     branches: [main]
 
