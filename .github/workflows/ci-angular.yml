@@ -13,6 +13,7 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
+      - run: npm run lint
       - run: npm ci
       - run: npx ng test --watch=false --browsers=ChromHeadless
       - run: npx ng build --configuration=production
